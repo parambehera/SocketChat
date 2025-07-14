@@ -28,7 +28,7 @@ mongoose.connection.on("connected", () => {
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://socketchat-2.onrender.com",
+    origin: "https://socket-chat-seven-omega.vercel.app",
     credentials: true,
   })
 );
