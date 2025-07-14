@@ -33,7 +33,7 @@ const Chat = () => {
   };
 
   useEffect(() => {
-    const _socket = io("http://localhost:3000", {
+    const _socket = io("https://socketchat-mrk1.onrender.com", {
       transports: ["websocket"],
       withCredentials: true,
     });

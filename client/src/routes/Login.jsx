@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:3000/api/login", {
+    const res = await fetch("https://socketchat-mrk1.onrender.com/api/login", {
       method: "POST",
       credentials: "include",
       headers: { "Content-Type": "application/json" },
